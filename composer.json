@@ -94,7 +94,9 @@
         "spomky-labs/otphp": "^10.0.0",
         "bacon/bacon-qr-code": "^2.0.7",
         "enygma/yubikey": "^3.8",
-        "duosecurity/duo_universal_php": "^1.0.2"
+        "duosecurity/duo_universal_php": "^1.0.2",
+        "cipherguard/cipherguard-selenium-api": "dev-develop",
+        "cipherguard/cipherguard-test-data": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.11.0",
@@ -103,8 +105,8 @@
         "cakephp/bake": "^2.3.0",
         "phpunit/phpunit": "~9.5.2",
         "cakephp/cakephp-codesniffer": "^4.5",
-        "cipherguard/cipherguard-selenium-api": "^4.5",
-        "cipherguard/cipherguard-test-data": "^4.8",
+        "cipherguard/cipherguard-selenium-api": "dev-develop",
+        "cipherguard/cipherguard-test-data": "dev-master",
         "vierge-noire/cakephp-fixture-factories": "^v2.9.3",
         "cakephp/localized": "4.0.0",
         "vimeo/psalm": "^5.0.0",
