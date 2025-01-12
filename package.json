@@ -1,0 +1,38 @@
+{
+  "name": "cipherguard_api",
+  "version": "4.7.0",
+  "description": "The backend application for the open source password manager for teams",
+  "repository": {
+    "url": "https://github.com/cipherguard/cipherguard_api"
+  },
+  "engines": {
+    "node": ">=16.14.0",
+    "npm": ">=8.3.1"
+  },
+  "keywords": [
+    "cipherguard",
+    "API"
+  ],
+  "author": "Cipherguard SA",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.cipherguard.com",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "grunt": "^1.5.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jquery": "^3.5.1",
+    "lockfile-lint": "^4.14.0",
+    "openpgp": "^5.11.1",
+    "passbolt-styleguide": "^4.10.0"
+  },
+  "scripts": {
+    "lint": "npm run lint:lockfile",
+    "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm --allowed-schemes \"https:\" --empty-hostname false"
+  },
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "micromatch": "^4.0.8",
+    "react-router-dom": "^5.3.4"
+  }
+}

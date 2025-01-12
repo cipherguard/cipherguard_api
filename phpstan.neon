@@ -1,0 +1,29 @@
+includes:
+    - phpstan-baseline.neon
+    - vendor/cakedc/cakephp-phpstan/extension.neon
+
+parameters:
+    level: 6
+    treatPhpDocTypesAsCertain: false
+    paths:
+        - src
+        - plugins
+    bootstrapFiles:
+        - config/bootstrap.php
+    excludePaths:
+        - **/templates/**
+        - **/tests/**
+    ignoreErrors:
+        -
+            identifier: missingType.iterableValue
+            paths:
+                - src/**
+                - plugins/**
+        -
+            identifier: missingType.generics
+            paths:
+                - src/**
+                - plugins/**
+
+rules:
+    - App\Test\PhpstanRule\Deprecation\DeprecatedEmailValidationStaticRule
