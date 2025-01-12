@@ -16,8 +16,8 @@ declare(strict_types=1);
  */
 namespace Cipherguard\JwtAuthentication\Service\AccessToken;
 
-use Firebase\JWT\JWT;
 use Cipherguard\JwtAuthentication\Error\Exception\AccessToken\InvalidJwtKeyPairException;
+use Firebase\JWT\JWT;
 
 class JwksGetService extends JwtAbstractService
 {

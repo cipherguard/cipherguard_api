@@ -19,9 +19,9 @@ namespace Cipherguard\SmtpSettings\Test\TestCase\Form;
 use App\Test\Lib\Model\FormatValidationTrait;
 use Cake\Event\EventDispatcherTrait;
 use Cake\TestSuite\TestCase;
-use Faker\Factory;
 use Cipherguard\SmtpSettings\Form\EmailConfigurationForm;
 use Cipherguard\SmtpSettings\Test\Lib\SmtpSettingsTestTrait;
+use Faker\Factory;
 
 /**
  * @covers \Cipherguard\SmtpSettings\Form\EmailConfigurationForm

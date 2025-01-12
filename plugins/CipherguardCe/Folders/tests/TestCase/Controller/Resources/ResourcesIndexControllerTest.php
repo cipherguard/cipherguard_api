@@ -24,7 +24,6 @@ use App\Test\Lib\Utility\FixtureProviderTrait;
 use App\Utility\UuidFactory;
 use Cake\ORM\TableRegistry;
 use Cake\Utility\Hash;
-use Closure;
 use Cipherguard\Folders\Model\Behavior\FolderizableBehavior;
 use Cipherguard\Folders\Test\Factory\FolderFactory;
 use Cipherguard\Folders\Test\Factory\FoldersRelationFactory;
@@ -32,6 +31,7 @@ use Cipherguard\Folders\Test\Factory\ResourceFactory;
 use Cipherguard\Folders\Test\Lib\FoldersIntegrationTestCase;
 use Cipherguard\Folders\Test\Lib\Model\FoldersModelTrait;
 use Cipherguard\Folders\Test\Lib\Model\FoldersRelationsModelTrait;
+use Closure;
 
 /**
  * @covers \App\Controller\Resources\ResourcesIndexController

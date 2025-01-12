@@ -20,13 +20,13 @@ use App\Model\Entity\AuthenticationToken;
 use App\Test\Factory\AuthenticationTokenFactory;
 use App\Test\Factory\UserFactory;
 use Cake\I18n\FrozenTime;
-use OTPHP\Factory;
 use Cipherguard\JwtAuthentication\Service\RefreshToken\RefreshTokenAbstractService;
 use Cipherguard\JwtAuthentication\Service\RefreshToken\RefreshTokenRenewalService;
 use Cipherguard\Log\Test\Factory\ActionLogFactory;
 use Cipherguard\MultiFactorAuthentication\Test\Lib\MfaIntegrationTestCase;
 use Cipherguard\MultiFactorAuthentication\Test\Scenario\Totp\MfaTotpScenario;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaVerifiedCookie;
+use OTPHP\Factory;
 
 /**
  * @see \Cipherguard\MultiFactorAuthentication\Controller\Totp\TotpVerifyPostController

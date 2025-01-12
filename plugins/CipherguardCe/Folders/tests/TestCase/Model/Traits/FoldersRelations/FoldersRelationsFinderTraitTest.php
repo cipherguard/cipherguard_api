@@ -20,12 +20,12 @@ namespace Cipherguard\Folders\Test\TestCase\Model\Traits\FoldersRelations;
 use App\Test\Factory\GroupFactory;
 use App\Test\Factory\UserFactory;
 use Cake\ORM\TableRegistry;
-use Closure;
 use Cipherguard\Folders\Model\Entity\FoldersRelation;
 use Cipherguard\Folders\Test\Factory\FolderFactory;
 use Cipherguard\Folders\Test\Factory\ResourceFactory;
 use Cipherguard\Folders\Test\Lib\FoldersTestCase;
 use Cipherguard\Folders\Test\Lib\Model\FoldersRelationsModelTrait;
+use Closure;
 
 class FoldersRelationsFinderTraitTest extends FoldersTestCase
 {

@@ -22,12 +22,12 @@ use App\Utility\UserAccessControl;
 use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Validation\Validation;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Model\Dto\MfaDuoCallbackDto;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaAccountSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 /**
  * Class MfaDuoEnableService

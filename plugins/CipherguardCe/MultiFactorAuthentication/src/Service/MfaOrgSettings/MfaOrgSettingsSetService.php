@@ -18,9 +18,9 @@ declare(strict_types=1);
 namespace Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings;
 
 use App\Utility\UserAccessControl;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 class MfaOrgSettingsSetService
 {

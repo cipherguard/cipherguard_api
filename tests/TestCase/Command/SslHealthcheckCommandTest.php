@@ -18,8 +18,8 @@ namespace App\Test\TestCase\Command;
 
 use App\Service\Command\ProcessUserService;
 use App\Test\Lib\AppTestCase;
-use App\Test\Lib\Utility\HealthcheckRequestTestTrait;
 use App\Test\Lib\Utility\CipherguardCommandTestTrait;
+use App\Test\Lib\Utility\HealthcheckRequestTestTrait;
 use Cake\Console\TestSuite\ConsoleIntegrationTestTrait;
 use Cake\Core\Exception\CakeException;
 use Cake\Http\Client;

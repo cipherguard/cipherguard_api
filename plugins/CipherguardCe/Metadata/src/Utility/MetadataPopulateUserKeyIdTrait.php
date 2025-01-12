@@ -19,9 +19,9 @@ namespace Cipherguard\Metadata\Utility;
 use Cake\Http\Exception\BadRequestException;
 use Cake\ORM\TableRegistry;
 use Cake\Validation\Validation;
-use InvalidArgumentException;
 use Cipherguard\Metadata\Model\Dto\MetadataDto;
 use Cipherguard\Metadata\Model\Entity\MetadataKey;
+use InvalidArgumentException;
 
 trait MetadataPopulateUserKeyIdTrait
 {

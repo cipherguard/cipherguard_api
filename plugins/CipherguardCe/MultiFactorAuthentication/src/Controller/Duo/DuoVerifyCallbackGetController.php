@@ -27,7 +27,6 @@ use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Http\Response;
 use Cake\Validation\Validation;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Controller\MfaVerifyController;
 use Cipherguard\MultiFactorAuthentication\Form\Duo\DuoCallbackForm;
 use Cipherguard\MultiFactorAuthentication\Model\Dto\MfaDuoCallbackDto;
@@ -35,6 +34,7 @@ use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoLoginService;
 use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoStateCookieService;
 use Cipherguard\MultiFactorAuthentication\Service\MfaVerifiedCookieService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 class DuoVerifyCallbackGetController extends MfaVerifyController
 {

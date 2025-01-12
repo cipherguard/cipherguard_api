@@ -21,9 +21,9 @@ use App\Model\Entity\AuthenticationToken;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Routing\Router;
 use Cake\Validation\Validation;
+use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
 use Duo\DuoUniversal\Client;
 use Duo\DuoUniversal\DuoException;
-use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
 
 /**
  * Class MfaDuoGetSdkClientService

@@ -22,8 +22,8 @@ use App\Notification\Email\EmailSender;
 use App\Notification\Email\EmailSenderException;
 use App\Test\Factory\UserFactory;
 use App\Test\Lib\AppTestCase;
-use EmailQueue\Model\Table\EmailQueueTable;
 use Cipherguard\EmailDigest\Test\Factory\EmailQueueFactory;
+use EmailQueue\Model\Table\EmailQueueTable;
 
 class EmailSenderTest extends AppTestCase
 {

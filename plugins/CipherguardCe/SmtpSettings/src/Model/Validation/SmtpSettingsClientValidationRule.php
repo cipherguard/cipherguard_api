@@ -17,8 +17,8 @@ declare(strict_types=1);
 
 namespace Cipherguard\SmtpSettings\Model\Validation;
 
-use App\Model\Validation\EmailValidationRule;
 use App\Model\Validation\CipherguardValidationRule;
+use App\Model\Validation\EmailValidationRule;
 use Cake\Validation\Validation;
 
 class SmtpSettingsClientValidationRule extends CipherguardValidationRule

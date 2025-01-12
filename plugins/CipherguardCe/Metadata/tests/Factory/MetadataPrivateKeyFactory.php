@@ -21,9 +21,9 @@ use App\Model\Entity\User;
 use App\Test\Factory\UserFactory;
 use Cake\Chronos\Chronos;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Metadata\Model\Entity\MetadataKey;
 use Cipherguard\Metadata\Test\Utility\GpgMetadataKeysTestTrait;
+use Faker\Generator;
 
 /**
  * MetadataPrivateKeyFactory

@@ -17,10 +17,10 @@ declare(strict_types=1);
 namespace Cipherguard\JwtAuthentication\Service\AccessToken;
 
 use App\Utility\UuidFactory;
-use Firebase\JWT\JWT;
-use Firebase\JWT\Key;
 use Cipherguard\JwtAuthentication\Command\CreateJwtKeysCommand;
 use Cipherguard\JwtAuthentication\Error\Exception\AccessToken\InvalidJwtKeyPairException;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 
 class JwtKeyPairService
 {

@@ -18,10 +18,10 @@ namespace Cipherguard\MultiFactorAuthentication\Test\TestCase\Controllers\OrgSet
 
 use App\Model\Entity\Role;
 use App\Test\Factory\UserFactory;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Test\Lib\MfaIntegrationTestCase;
 use Cipherguard\MultiFactorAuthentication\Test\Mock\DuoSdkClientMock;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 class MfaOrgSettingsPostControllerTest extends MfaIntegrationTestCase
 {

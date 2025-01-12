@@ -22,10 +22,10 @@ use App\Model\Table\PermissionsTable;
 use App\Test\Factory\Traits\FactoryDeletedTrait;
 use Cake\Chronos\Chronos;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Folders\Model\Entity\Folder;
 use Cipherguard\Folders\Model\Entity\FoldersRelation;
 use Cipherguard\Metadata\Test\Utility\GpgMetadataKeysTestTrait;
+use Faker\Generator;
 
 /**
  * FolderFactory

@@ -23,8 +23,8 @@ use App\Test\Factory\UserFactory;
 use Cake\Chronos\Chronos;
 use Cake\I18n\FrozenTime;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Metadata\Test\Utility\GpgMetadataKeysTestTrait;
+use Faker\Generator;
 
 /**
  * Metadata key factory.

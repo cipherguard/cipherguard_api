@@ -18,7 +18,6 @@ namespace Cipherguard\MultiFactorAuthentication\Test\TestCase\Controllers\Duo;
 
 use App\Test\Factory\AuthenticationTokenFactory;
 use App\Test\Factory\OrganizationSettingFactory;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoStateCookieService;
 use Cipherguard\MultiFactorAuthentication\Test\Lib\MfaIntegrationTestCase;
 use Cipherguard\MultiFactorAuthentication\Test\Mock\DuoSdkClientMock;
@@ -26,6 +25,7 @@ use Cipherguard\MultiFactorAuthentication\Test\Scenario\Duo\MfaDuoOrganizationOn
 use Cipherguard\MultiFactorAuthentication\Test\Scenario\Duo\MfaDuoScenario;
 use Cipherguard\MultiFactorAuthentication\Test\Scenario\Totp\MfaTotpScenario;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 class DuoSetupPromptPostControllerTest extends MfaIntegrationTestCase
 {

@@ -24,10 +24,10 @@ use App\Notification\Email\SubscribedEmailRedactorTrait;
 use App\Utility\UserAccessControl;
 use Cake\Event\Event;
 use Cake\ORM\TableRegistry;
-use InvalidArgumentException;
 use Cipherguard\Folders\Model\Entity\Folder;
 use Cipherguard\Folders\Service\Folders\FoldersCreateService;
 use Cipherguard\Locale\Service\LocaleService;
+use InvalidArgumentException;
 
 class CreateFolderEmailRedactor implements SubscribedEmailRedactorInterface
 {

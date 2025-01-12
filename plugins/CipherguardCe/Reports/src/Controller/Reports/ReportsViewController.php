@@ -21,9 +21,9 @@ use App\Model\Entity\Role;
 use App\Model\Table\Dto\FindIndexOptions;
 use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\ForbiddenException;
-use InvalidArgumentException;
 use Cipherguard\Reports\Service\ReportViewService;
 use Cipherguard\Reports\Utility\AbstractReport;
+use InvalidArgumentException;
 
 /**
  * ReportsViewController Class

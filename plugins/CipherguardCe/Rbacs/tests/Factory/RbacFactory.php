@@ -20,10 +20,10 @@ namespace Cipherguard\Rbacs\Test\Factory;
 use App\Model\Entity\Role;
 use Cake\I18n\FrozenDate;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Log\Model\Entity\Action;
 use Cipherguard\Rbacs\Model\Entity\Rbac;
 use Cipherguard\Rbacs\Model\Entity\UiAction;
+use Faker\Generator;
 
 /**
  * RbacFactory

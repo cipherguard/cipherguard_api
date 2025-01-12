@@ -21,11 +21,11 @@ use App\Model\Entity\AuthenticationToken;
 use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Validation\Validation;
-use Duo\DuoUniversal\Client;
-use Duo\DuoUniversal\DuoException;
 use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoGetSdkClientService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
+use Duo\DuoUniversal\DuoException;
 
 class MfaOrgSettingsDuoService
 {

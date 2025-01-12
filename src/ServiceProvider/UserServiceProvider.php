@@ -24,9 +24,9 @@ use App\Service\Users\UserRegisterServiceInterface;
 use Cake\Core\ContainerInterface;
 use Cake\Core\ServiceProvider;
 use Cake\Http\ServerRequest;
+use Cipherguard\SelfRegistration\Service\DryRun\SelfRegistrationDryRunServiceInterface;
 use League\Flysystem\FilesystemAdapter;
 use League\Flysystem\Local\LocalFilesystemAdapter;
-use Cipherguard\SelfRegistration\Service\DryRun\SelfRegistrationDryRunServiceInterface;
 
 class UserServiceProvider extends ServiceProvider
 {

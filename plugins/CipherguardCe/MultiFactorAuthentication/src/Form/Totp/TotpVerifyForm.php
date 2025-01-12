@@ -19,9 +19,9 @@ namespace Cipherguard\MultiFactorAuthentication\Form\Totp;
 use App\Utility\UserAccessControl;
 use Cake\Form\Schema;
 use Cake\Validation\Validator;
-use OTPHP\Factory;
 use Cipherguard\MultiFactorAuthentication\Form\MfaForm;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use OTPHP\Factory;
 
 class TotpVerifyForm extends MfaForm
 {

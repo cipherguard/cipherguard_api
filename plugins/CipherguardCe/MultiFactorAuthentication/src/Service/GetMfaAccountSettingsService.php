@@ -19,8 +19,8 @@ namespace Cipherguard\MultiFactorAuthentication\Service;
 
 use App\Model\Entity\User;
 use App\Utility\UserAccessControl;
-use Exception;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaAccountSettings;
+use Exception;
 
 class GetMfaAccountSettingsService
 {

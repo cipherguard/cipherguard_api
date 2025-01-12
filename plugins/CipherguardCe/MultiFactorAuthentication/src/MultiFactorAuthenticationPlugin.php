@@ -23,7 +23,6 @@ use Cake\Core\ContainerInterface;
 use Cake\Core\PluginApplicationInterface;
 use Cake\Http\MiddlewareQueue;
 use Cake\ORM\TableRegistry;
-use Duo\DuoUniversal\Client;
 use Cipherguard\JwtAuthentication\Authenticator\JwtArmoredChallengeInterface;
 use Cipherguard\MultiFactorAuthentication\Authenticator\MfaJwtArmoredChallengeService;
 use Cipherguard\MultiFactorAuthentication\Event\AddIsMfaEnabledColumnToUsersGrid;
@@ -35,6 +34,7 @@ use Cipherguard\MultiFactorAuthentication\Notification\Email\MfaRedactorPool;
 use Cipherguard\MultiFactorAuthentication\Service\MfaPolicies\DefaultRememberAMonthSettingService;
 use Cipherguard\MultiFactorAuthentication\Service\MfaPolicies\RememberAMonthSettingInterface;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 class MultiFactorAuthenticationPlugin extends BasePlugin
 {

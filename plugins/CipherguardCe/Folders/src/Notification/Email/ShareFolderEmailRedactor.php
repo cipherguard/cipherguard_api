@@ -25,10 +25,10 @@ use App\Notification\Email\SubscribedEmailRedactorTrait;
 use App\Utility\Purifier;
 use Cake\Event\Event;
 use Cake\ORM\TableRegistry;
-use InvalidArgumentException;
 use Cipherguard\Folders\Model\Entity\Folder;
 use Cipherguard\Folders\Service\Folders\FoldersShareService;
 use Cipherguard\Locale\Service\LocaleService;
+use InvalidArgumentException;
 
 class ShareFolderEmailRedactor implements SubscribedEmailRedactorInterface
 {

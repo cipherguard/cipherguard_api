@@ -20,10 +20,10 @@ use App\Error\Exception\ValidationException;
 use Cake\Form\Schema;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Validation\Validator;
-use OTPHP\Factory;
 use Cipherguard\MultiFactorAuthentication\Form\MfaForm;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaAccountSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use OTPHP\Factory;
 
 class TotpSetupForm extends MfaForm
 {

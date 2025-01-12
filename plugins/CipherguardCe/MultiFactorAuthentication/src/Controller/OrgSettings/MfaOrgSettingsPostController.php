@@ -17,10 +17,10 @@ declare(strict_types=1);
 namespace Cipherguard\MultiFactorAuthentication\Controller\OrgSettings;
 
 use Cake\Http\Exception\BadRequestException;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Controller\MfaController;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsSetService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettingsDuoBackwardCompatible;
+use Duo\DuoUniversal\Client;
 
 class MfaOrgSettingsPostController extends MfaController
 {

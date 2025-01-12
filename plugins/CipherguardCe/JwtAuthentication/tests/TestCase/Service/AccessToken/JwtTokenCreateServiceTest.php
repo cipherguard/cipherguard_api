@@ -21,9 +21,9 @@ use App\Utility\UuidFactory;
 use Cake\Core\Configure;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\TestSuite\TestCase;
-use Firebase\JWT\ExpiredException;
 use Cipherguard\JwtAuthentication\Service\AccessToken\JwtTokenCreateService;
 use Cipherguard\JwtAuthentication\Test\Utility\JwtTestTrait;
+use Firebase\JWT\ExpiredException;
 
 /**
  * @covers \Cipherguard\JwtAuthentication\Service\AccessToken\JwtTokenCreateService

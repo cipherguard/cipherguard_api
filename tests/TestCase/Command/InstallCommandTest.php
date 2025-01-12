@@ -21,15 +21,15 @@ use App\Service\Subscriptions\DefaultSubscriptionCheckInCommandService;
 use App\Service\Subscriptions\SubscriptionCheckInCommandServiceInterface;
 use App\Test\Lib\AppTestCase;
 use App\Test\Lib\Model\EmailQueueTrait;
-use App\Test\Lib\Utility\HealthcheckRequestTestTrait;
 use App\Test\Lib\Utility\CipherguardCommandTestTrait;
+use App\Test\Lib\Utility\HealthcheckRequestTestTrait;
 use Cake\Console\TestSuite\ConsoleIntegrationTestTrait;
 use Cake\Core\Configure;
 use Cake\Http\Client;
 use Cake\ORM\Query;
 use Cake\ORM\TableRegistry;
-use Faker\Factory;
 use Cipherguard\EmailNotificationSettings\Test\Lib\EmailNotificationSettingsTestTrait;
+use Faker\Factory;
 
 class InstallCommandTest extends AppTestCase
 {

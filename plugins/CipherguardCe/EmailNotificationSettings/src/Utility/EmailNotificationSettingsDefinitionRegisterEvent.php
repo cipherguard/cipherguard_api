@@ -18,8 +18,8 @@ declare(strict_types=1);
 namespace Cipherguard\EmailNotificationSettings\Utility;
 
 use Cake\Event\Event;
-use InvalidArgumentException;
 use Cipherguard\EmailNotificationSettings\Form\EmailNotificationSettingsForm;
+use InvalidArgumentException;
 
 /**
  * @method \Cipherguard\EmailNotificationSettings\Form\EmailNotificationSettingsForm getSubject()

@@ -22,10 +22,10 @@ use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\Validation\Validation;
-use Exception;
 use Cipherguard\Folders\Model\Behavior\FolderizableBehavior;
 use Cipherguard\Metadata\Model\Dto\MetadataResourceDto;
 use Cipherguard\Metadata\Service\MetadataResourcesRenderService;
+use Exception;
 
 /**
  * ResourcesViewController Class

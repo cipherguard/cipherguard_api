@@ -18,12 +18,12 @@ declare(strict_types=1);
 namespace Cipherguard\MultiFactorAuthentication\Test\TestCase\Service;
 
 use App\Model\Entity\User;
-use Exception;
 use Cipherguard\MultiFactorAuthentication\Service\GetMfaAccountSettingsService;
 use Cipherguard\MultiFactorAuthentication\Service\IsMfaEnabledService;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsGetService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaAccountSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
+use Exception;
 use PHPUnit\Framework\TestCase;
 
 class IsMfaEnabledServiceTest extends TestCase

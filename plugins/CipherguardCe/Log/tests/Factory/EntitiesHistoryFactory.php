@@ -20,8 +20,8 @@ namespace Cipherguard\Log\Test\Factory;
 use App\Test\Factory\ResourceFactory;
 use Cake\Chronos\Chronos;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Log\Model\Entity\EntityHistory;
+use Faker\Generator;
 
 /**
  * ActionLogFactory

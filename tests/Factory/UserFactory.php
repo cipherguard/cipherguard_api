@@ -24,9 +24,9 @@ use App\Utility\UuidFactory;
 use Cake\I18n\FrozenDate;
 use Cake\I18n\FrozenTime;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\AccountSettings\Test\Factory\AccountSettingFactory;
 use Cipherguard\Log\Test\Factory\ActionLogFactory;
+use Faker\Generator;
 
 /**
  * UserFactory

@@ -23,8 +23,8 @@ use Cake\Chronos\Chronos;
 use Cake\Chronos\ChronosInterface;
 use Cake\Utility\Security;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Mobile\Model\Entity\Transfer;
+use Faker\Generator;
 
 /**
  * TransferFactory

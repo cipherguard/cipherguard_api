@@ -21,11 +21,11 @@ use App\Model\Entity\AuthenticationToken;
 use App\Service\Cookie\AbstractSecureCookieService;
 use Cake\Http\Exception\ServiceUnavailableException;
 use Cake\Http\Response;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Controller\MfaVerifyController;
 use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoStartDuoAuthenticationService;
 use Cipherguard\MultiFactorAuthentication\Service\Duo\MfaDuoStateCookieService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 /**
  * @property \App\Controller\Component\SanitizeUrlComponent $SanitizeUrl

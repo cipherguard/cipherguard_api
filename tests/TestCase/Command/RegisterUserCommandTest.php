@@ -25,8 +25,8 @@ use App\Test\Lib\Utility\CipherguardCommandTestTrait;
 use Cake\Console\TestSuite\ConsoleIntegrationTestTrait;
 use Cake\ORM\TableRegistry;
 use Cake\Routing\Router;
-use Faker\Factory;
 use Cipherguard\EmailNotificationSettings\Test\Lib\EmailNotificationSettingsTestTrait;
+use Faker\Factory;
 
 class RegisterUserCommandTest extends AppTestCase
 {

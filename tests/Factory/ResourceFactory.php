@@ -24,8 +24,8 @@ use App\Test\Factory\Traits\FactoryDeletedTrait;
 use Cake\Chronos\Chronos;
 use Cake\I18n\FrozenTime;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Metadata\Test\Factory\MetadataPrivateKeyFactory;
+use Faker\Generator;
 
 /**
  * ResourceFactory

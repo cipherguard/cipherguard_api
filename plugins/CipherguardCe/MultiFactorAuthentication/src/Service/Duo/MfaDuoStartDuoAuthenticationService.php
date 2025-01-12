@@ -23,11 +23,11 @@ use Cake\Http\Exception\InternalErrorException;
 use Cake\Http\Exception\ServiceUnavailableException;
 use Cake\ORM\Locator\LocatorAwareTrait;
 use Cake\Validation\Validation;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Model\Dto\MfaDuoAuthenticationRequestDto;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
+use Duo\DuoUniversal\Client;
 
 /**
  * Class MfaDuoStartDuoAuthenticationService

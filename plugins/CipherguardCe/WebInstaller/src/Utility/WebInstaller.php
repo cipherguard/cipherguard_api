@@ -27,10 +27,10 @@ use Cake\Http\Session;
 use Cake\Log\Log;
 use Cake\ORM\TableRegistry;
 use Cake\Utility\Hash;
-use Migrations\Migrations;
 use Cipherguard\SmtpSettings\Service\SmtpSettingsSetService;
 use Cipherguard\WebInstaller\Form\DatabaseConfigurationForm;
 use Cipherguard\WebInstaller\Service\WebInstallerChangeConfigFolderPermissionService;
+use Migrations\Migrations;
 
 class WebInstaller
 {

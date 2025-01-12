@@ -21,8 +21,8 @@ use App\Utility\Application\FeaturePluginAwareTrait;
 use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\Validation\Validation;
-use Exception;
 use Cipherguard\MultiFactorAuthentication\Service\Query\IsMfaEnabledQueryService;
+use Exception;
 
 /**
  * UsersViewController Class

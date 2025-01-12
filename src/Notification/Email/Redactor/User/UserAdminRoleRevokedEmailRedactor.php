@@ -30,8 +30,8 @@ use App\Utility\Purifier;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\ORM\Locator\LocatorAwareTrait;
-use InvalidArgumentException;
 use Cipherguard\Locale\Service\LocaleService;
+use InvalidArgumentException;
 
 class UserAdminRoleRevokedEmailRedactor implements SubscribedEmailRedactorInterface
 {

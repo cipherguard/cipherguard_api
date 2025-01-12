@@ -22,8 +22,8 @@ use Cake\Core\Configure;
 use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\ORM\TableRegistry;
-use Duo\DuoUniversal\Client;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
+use Duo\DuoUniversal\Client;
 
 class MfaOrgSettings
 {

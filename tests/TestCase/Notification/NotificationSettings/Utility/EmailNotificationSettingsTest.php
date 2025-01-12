@@ -26,9 +26,9 @@ use Cake\Core\Configure;
 use Cake\Event\EventManager;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\ORM\TableRegistry;
-use EmailQueue\Model\Table\EmailQueueTable;
 use Cipherguard\EmailNotificationSettings\Test\Lib\EmailNotificationSettingsTestTrait;
 use Cipherguard\EmailNotificationSettings\Utility\EmailNotificationSettings;
+use EmailQueue\Model\Table\EmailQueueTable;
 
 class EmailNotificationSettingsTest extends AppIntegrationTestCase
 {

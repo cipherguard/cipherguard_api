@@ -23,9 +23,9 @@ use App\Model\Traits\Query\CaseInsensitiveSearchQueryTrait;
 use Cake\Database\Expression\IdentifierExpression;
 use Cake\ORM\Query;
 use Cake\Validation\Validation;
-use InvalidArgumentException;
 use Cipherguard\Folders\Model\Behavior\FolderizableBehavior;
 use Cipherguard\Folders\Model\Entity\Folder;
+use InvalidArgumentException;
 
 /**
  * Trait FoldersFindersTrait

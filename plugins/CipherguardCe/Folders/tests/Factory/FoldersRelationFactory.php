@@ -22,9 +22,9 @@ use App\Test\Factory\ResourceFactory;
 use App\Test\Factory\UserFactory;
 use Cake\Chronos\Chronos;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\Folders\Model\Entity\Folder;
 use Cipherguard\Folders\Model\Entity\FoldersRelation;
+use Faker\Generator;
 
 /**
  * FoldersRelationFactory

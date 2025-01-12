@@ -62,10 +62,10 @@ use Cake\Http\ServerRequest;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
 use Cake\Routing\Router;
-use EmailQueue\Shell\SenderShell;
 use Cipherguard\EmailDigest\EmailDigestPlugin;
 use Cipherguard\SelfRegistration\Service\DryRun\SelfRegistrationDefaultDryRunService;
 use Cipherguard\SelfRegistration\Service\DryRun\SelfRegistrationDryRunServiceInterface;
+use EmailQueue\Shell\SenderShell;
 use Psr\Http\Message\ServerRequestInterface;
 
 class Application extends BaseApplication implements AuthenticationServiceProviderInterface

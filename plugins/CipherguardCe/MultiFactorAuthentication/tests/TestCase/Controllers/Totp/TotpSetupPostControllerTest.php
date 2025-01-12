@@ -18,7 +18,6 @@ namespace Cipherguard\MultiFactorAuthentication\Test\TestCase\Controllers\Totp;
 
 use App\Test\Factory\UserFactory;
 use Cake\Core\Configure;
-use OTPHP\Factory;
 use Cipherguard\MultiFactorAuthentication\Test\Factory\MfaAuthenticationTokenFactory;
 use Cipherguard\MultiFactorAuthentication\Test\Lib\MfaIntegrationTestCase;
 use Cipherguard\MultiFactorAuthentication\Test\Scenario\Totp\MfaTotpOrganizationOnlyScenario;
@@ -26,6 +25,7 @@ use Cipherguard\MultiFactorAuthentication\Test\Scenario\Totp\MfaTotpScenario;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOtpFactory;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaSettings;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaVerifiedCookie;
+use OTPHP\Factory;
 
 class TotpSetupPostControllerTest extends MfaIntegrationTestCase
 {

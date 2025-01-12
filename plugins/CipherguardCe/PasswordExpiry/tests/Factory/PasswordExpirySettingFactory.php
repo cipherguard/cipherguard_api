@@ -19,9 +19,9 @@ namespace Cipherguard\PasswordExpiry\Test\Factory;
 
 use App\Test\Factory\OrganizationSettingFactory;
 use App\Utility\UuidFactory;
-use Faker\Generator;
 use Cipherguard\PasswordExpiry\Model\Dto\PasswordExpirySettingsDto;
 use Cipherguard\PasswordExpiry\Model\Table\PasswordExpirySettingsTable;
+use Faker\Generator;
 
 /**
  * @method \Cipherguard\PasswordExpiry\Model\Entity\PasswordExpirySetting|\Cipherguard\PasswordExpiry\Model\Entity\PasswordExpirySetting[] persist()

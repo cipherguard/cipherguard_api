@@ -16,9 +16,9 @@ declare(strict_types=1);
  */
 namespace Cipherguard\JwtAuthentication\Test\Utility;
 
+use Cipherguard\JwtAuthentication\Service\AccessToken\JwksGetService;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
-use Cipherguard\JwtAuthentication\Service\AccessToken\JwksGetService;
 
 trait JwtTestTrait
 {

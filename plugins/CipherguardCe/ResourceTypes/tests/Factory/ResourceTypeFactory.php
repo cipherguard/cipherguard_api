@@ -20,8 +20,8 @@ namespace Cipherguard\ResourceTypes\Test\Factory;
 use App\Utility\UuidFactory;
 use Cake\I18n\FrozenDate;
 use CakephpFixtureFactories\Factory\BaseFactory as CakephpBaseFactory;
-use Faker\Generator;
 use Cipherguard\ResourceTypes\Model\Entity\ResourceType;
+use Faker\Generator;
 
 /**
  * ResourceFactory

@@ -26,10 +26,10 @@ use App\Utility\Purifier;
 use Cake\Event\Event;
 use Cake\ORM\Query;
 use Cake\ORM\TableRegistry;
-use InvalidArgumentException;
 use Cipherguard\Folders\Model\Entity\Folder;
 use Cipherguard\Folders\Service\Folders\FoldersDeleteService;
 use Cipherguard\Locale\Service\LocaleService;
+use InvalidArgumentException;
 
 class DeleteFolderEmailRedactor implements SubscribedEmailRedactorInterface
 {

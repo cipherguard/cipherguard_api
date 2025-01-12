@@ -22,10 +22,10 @@ use Cake\Core\Configure;
 use Cake\Http\Exception\InternalErrorException;
 use Cake\Http\Exception\UnauthorizedException;
 use Cake\Utility\Hash;
-use Duo\DuoUniversal\Client;
-use Duo\DuoUniversal\DuoException;
 use Cipherguard\MultiFactorAuthentication\Service\MfaOrgSettings\MfaOrgSettingsDuoService;
 use Cipherguard\MultiFactorAuthentication\Utility\MfaOrgSettings;
+use Duo\DuoUniversal\Client;
+use Duo\DuoUniversal\DuoException;
 
 /**
  * Class MfaDuoVerifyService

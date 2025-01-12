@@ -29,9 +29,9 @@ use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\ORM\Locator\LocatorAwareTrait;
 use Cake\ORM\Query;
-use InvalidArgumentException;
 use Cipherguard\EmailNotificationSettings\Utility\EmailNotificationSettings;
 use Cipherguard\Locale\Service\LocaleService;
+use InvalidArgumentException;
 
 /**
  * Email sent to all administrators when any administrator is deleted.
