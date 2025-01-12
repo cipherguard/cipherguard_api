@@ -26,7 +26,7 @@ module.exports = function(grunt) {
    */
   var paths = {
     node_modules: 'node_modules/',
-    node_modules_styleguide: 'node_modules/passbolt-styleguide/',
+    node_modules_styleguide: 'node_modules/cipherguard-styleguide/',
     webroot: 'webroot/',
     img: 'webroot/img/',
     css: 'webroot/css/',
